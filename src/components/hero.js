@@ -15,7 +15,7 @@ const ImageBackground = styled(BackgroundImage)`
 `;
 
 const TextBox = styled('div')`
-  background-image: linear-gradient(to top, #ddbbffcc 4.5rem, #ddbbff00);
+  background-image: linear-gradient(to top, #ddbbffcc 4.5rem, #ddbbff88);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -56,9 +56,9 @@ const Hero = () => {
     <ImageBackground Tag="section" fluid={image.sharp.fluid} fadein="soft">
       <TextBox>
         <div>
-          <h1>Lizz Rennie & Gatsby &hearts;</h1>
+          <h1>Lizz Rennie: Learning Gatsby, GraphQL & Netlify &hearts;</h1>
           <p>
-            Hello Toronto <Link to="/about/">Learn About Me &rarr;</Link>
+            Hello Juno <Link to="/about/">Learn About Me &rarr;</Link>
           </p>
         </div>
       </TextBox>

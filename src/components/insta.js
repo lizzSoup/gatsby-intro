@@ -9,7 +9,7 @@ const Insta = () => {
 
   return (
     <>
-      <h2>Instagram posts from @gatsbyjs</h2>
+      <h2>Instagram posts from @junocollege</h2>
       <div
         css={css`
           display: flex;
@@ -52,7 +52,7 @@ const Insta = () => {
           </a>
         ))}
       </div>
-      <a href={`https://instagram.com/${username}`}>
+      <a href={`https://instagram.com/junocollege`}>
         See more on Instagram &rarr;
       </a>
     </>
